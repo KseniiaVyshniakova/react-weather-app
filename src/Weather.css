@@ -28,11 +28,10 @@
   line-height: 19px;
   list-style: none;
 }
-.Weather img {
+.Weather canvas{
   float: left;
   margin-right: 10px;
-  width: 64px;
-  height: 64px;
+ 
 }
 .Weather .temperature {
   font-weight: 400;
