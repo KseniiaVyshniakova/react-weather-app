@@ -1,9 +1,10 @@
 .Weather {
   border: 1px solid #dadde1;
   font-family: 'Poppins', sans-serif;
-  padding: 16px;
-  border-radius: 4px;
-  color: #202020;
+  padding: 26px;
+  border-radius: 14px;
+  color: #011638;
+  
 }
 
 .Weather form {
@@ -31,7 +32,7 @@
 .Weather canvas{
   float: left;
   margin-right: 10px;
-  margin-left: 20px;
+  margin-left: 15px;
  
 }
 .Weather .temperature {
@@ -46,4 +47,10 @@
     position: relative;
     top: -32px;
     line-height: 1;
+}
+
+.Weather .search-button {
+  background-color: #C2DBFE;
+  color:#011638;
+  text-decoration: none;
 }
